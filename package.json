@@ -1,0 +1,21 @@
+{
+  "name": "botws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-cron": "^3.0.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "node-telegram-keyboard-wrapper": "^3.0.0",
+    "puppeteer": "^10.4.0"
+  }
+}
