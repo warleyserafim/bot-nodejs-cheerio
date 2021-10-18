@@ -38,7 +38,7 @@ const coletadados = async (pg) =>{
         const html = res.data;
         const $ = await cheerio.load(html);
 
-        let dadosMangas = {}
+        let dadosMangas = []
         $('.manga-info-text > li').each((i, e) =>{
             if (e && e.tagName == 'li'){
                 dadosMangas.push($(e).text())
